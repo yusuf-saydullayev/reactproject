@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app_item {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+}
+
+.app_item_link {
+  display: flex;
+  margin-right: 10px;
+  list-style: none;
+  color: white;
+  text-decoration: none !important;
+}
+.app_item_link.active {
+  color: red;
+  background: rgb(9, 218, 19);
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.logo {
+  color: white !important;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
